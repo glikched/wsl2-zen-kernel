@@ -556,7 +556,6 @@ release:
 	} else {
 		return false;
 	}
-
 	dev_warn(&chip->dev,
 		 "AMD fTPM version 0x%llx causes system stutter; hwrng disabled\n",
 		 version);
